@@ -1,14 +1,21 @@
-# Site settings
-title: My awesome blogik
-email: barsv85@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  For random thoughts.
-url: "http://barsv.github.io" # the base hostname & protocol for your site
-github_username:  jekyll
+# Setup
+title:               My awesome blogik
+tagline:             'A Jekyll theme'
+description:         'For random thoughts.'
+url:                 http://barsv.github.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
 
-# Build settings
-markdown: kramdown
-permalink: /:year/:title:output_ext
-exclude: ["CNAME", "Rakefile", "MIT-LICENSE", "README.md", "TODO.taskpaper"]
+# About/contact
+author:
+  name:              Stanislav Baranov
+  email:             barsv85@gmail.com
 
-#theme: jekyll-theme-minimal
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
