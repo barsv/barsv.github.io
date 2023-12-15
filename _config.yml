@@ -1,0 +1,11 @@
+# Site settings
+title: My awesome blogik
+email: barsv85@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  For random thoughts.
+url: "http://barsv.github.io" # the base hostname & protocol for your site
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:title:output_ext
