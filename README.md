@@ -1,3 +1,3 @@
 # barsv.github.io
 
-бложик без ножек
+бложик без ножек https://barsv.github.io/
