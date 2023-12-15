@@ -11,4 +11,4 @@ markdown: kramdown
 permalink: /:year/:title:output_ext
 exclude: ["CNAME", "Rakefile", "MIT-LICENSE", "README.md", "TODO.taskpaper"]
 
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
