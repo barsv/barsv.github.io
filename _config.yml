@@ -2,7 +2,7 @@
 title:               My awesome blogik
 tagline:             'A Jekyll theme'
 description:         'For random thoughts.'
-url:                 http://barsv.github.io
+url:                 https://barsv.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
