@@ -16,7 +16,7 @@
     {% endcomment %}
 
     {% assign pages_list = site.posts | sort:"url" %}
-    {% for node in pages_list limit:20 %}
+    {% for node in pages_list limit:16 %}
       {% if node.title != null %}
         {% if node.layout == "post" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
