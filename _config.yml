@@ -1,11 +1,13 @@
 # Setup
 title:               My awesome blogik
-tagline:             'A Jekyll theme'
+tagline:             'Naher tagline'
 description:         'For random thoughts.'
 url:                 https://barsv.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
+github:
+  repo: https://github.com/barsv/barsv.github.io
 
 # About/contact
 author:
