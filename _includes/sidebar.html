@@ -15,7 +15,7 @@
       `layout: post` in the front-matter. See readme for usage.
     {% endcomment %}
 
-    {% assign pages_list = site.posts | sort:"url" %}
+    {% assign pages_list = site.posts | sort:"date" | reverse %}
     {% for node in pages_list limit:16 %}
       {% if node.title != null %}
         {% if node.layout == "post" %}

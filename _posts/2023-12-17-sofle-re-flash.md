@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sofle keyboard re-flash
+date: 2023-12-17 16:47
 ---
 
 Спустя неделю активного использования sofle keyboard я созрел для внесения изменений в раскладку.

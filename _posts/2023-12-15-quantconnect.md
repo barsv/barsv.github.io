@@ -1,6 +1,7 @@
 ---
 layout: post
 title: QuantConnect
+date: 2023-12-15 12:00
 ---
 
 Пытаюсь посмотреть QuantConnect. Пока не очень получается и не очень нравится.
