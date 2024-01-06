@@ -1,3 +1,4 @@
+---
 layout: post
 title: Capital market line
 date: 2024-01-06 22:41:40
