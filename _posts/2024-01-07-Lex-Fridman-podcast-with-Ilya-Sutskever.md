@@ -4,14 +4,14 @@ title: Lex Fridman podcast with Ilya Sutskever
 date: 2024-01-07 10:05:56
 ---
 
-**Introduction**
+## Introduction
 
 [0:00](https://youtu.be/13CZPWmke6A?t=0)
 **Lex Fridman:** The following is a conversation with Ilya Sutskever, co-founder and chief scientist of OpenAI, one of the most cited computer scientists in history with over 165,000 citations. And to me, one of the most brilliant and insightful minds ever in the field of deep learning. There are very few people in this world who I would rather talk to and brainstorm with about deep learning, intelligence, and life in general than Ilya, on and off the mic. This was an honor and a pleasure. This conversation was recorded before the outbreak of the pandemic. For everyone feeling the medical, psychological, and financial burden of this crisis, I'm sending love your way. Stay strong. We're in this together. We'll beat this thing. This is the Artificial Intelligence Podcast. If you enjoy it, subscribe on YouTube, review it with five stars on Apple Podcasts, support it on Patreon, or simply connect with me on Twitter at Lex Fridman, spelled F-R-I-D-M-A-N. As usual, I'll do a few minutes of ads now and never any ads in the middle that can break the flow of the conversation. I hope that works for you and doesn't hurt the listening experience. This show is presented by Cash App, the number one finance app in the App Store. When you get it, use code Lex Podcast. Cash App lets you send money to friends, buy Bitcoin, and invest in the stock market with as little as one dollar. Since Cash App allows you to buy Bitcoin, let me mention that cryptocurrency, in the context of the history of money, is fascinating. I recommend "Ascent of Money" as a great book on this history. Both the book and audiobook are great. Debits and credits on ledgers started around 30,000 years ago, the US dollar was created over 200 years ago, and Bitcoin, the first decentralized cryptocurrency, was released just over 10 years ago. So, given that history, cryptocurrency is still very much in its early days of development but it's still aiming to, and just might, redefine the nature of money. So again, if you get Cash App from the App Store or Google Play and use the code Lex Podcast, you get ten dollars, and Cash App will also donate ten dollars to FIRST, an organization that is helping advance robotics and STEM education for young people around the world.
 
 **Lex Fridman:** And now, here's my conversation with Ilya Sutskever.
 
-**AlexNet Paper and the ImageNet Moment**
+## AlexNet Paper and the ImageNet Moment
 
 [2:23](https://youtu.be/13CZPWmke6A?t=143)
 **Lex Fridman:** You were one of the three authors, with Alex Krizhevsky and Jeff Hinton, of the famed AlexNet paper, that is arguably the paper that marked the big catalytic moment that launched the deep learning revolution at that time. Take us back to that time. What was your intuition about neural networks, about the representational power of neural networks, and maybe you could mention how did that evolve over the next few years up to today, over the 10 years?
@@ -42,7 +42,7 @@ date: 2024-01-07 10:05:56
 
 **Ilya Sutskever:** And it's hard to tell, but my prior is not very high. And I can say why. You know, there are people who are interested in spiking neural networks, and basically, what they figured out is that they need to simulate the non-spiking neural networks in spikes, and that's how they're going to make them work. If you don't simulate the non-spike in neural networks in spikes, it's not going to work because the question is, why should it work? And that connects to questions around backpropagation and questions around deep learning. You got this giant neural network, why should it work at all? Why should the learning rule work at all?
 
-*Cost functions*
+## Cost functions
 
 [8:36](https://youtu.be/13CZPWmke6A?t=516)
 **Ilya Sutskever:** It's not a self-evident question, especially if you, let's say, if you were just starting in the field, and you read the very early papers, you can say, "Hey, people are saying, 'Let's build neural networks.' That's a great idea because the brain is a neural network. So it would be useful to build neural networks. Now, let's figure out how to train them. It should be possible to train them properly, but how?" And so the big idea is the cost function.
@@ -96,7 +96,7 @@ date: 2024-01-07 10:05:56
 [13:31](https://youtu.be/13CZPWmke6A?t=811)
 **Lex Fridman:** You think recurrent neural networks, the recurrence in recurrent neural networks, can capture the same kind of phenomena as the timing that seems to be important for the brain? In the firing of neurons in the brain?
 
-*Recurrent neural networks*
+## Recurrent neural networks
 
 [13:48](https://youtu.be/13CZPWmke6A?t=828)
 **Ilya Sutskever:** I mean, I think, I think regarding neurons, recurrent neural networks are amazing. And they can do, I think they can do anything we'd want them to if we'd want a system to do. Right now, recurrent neural networks have been superseded by transformers, but maybe one day they'll make a comeback. Maybe they'll be back.
@@ -126,7 +126,7 @@ date: 2024-01-07 10:05:56
 
 **Lex Fridman:** So, we're going to pause on that confidence because I want to explore that. Well, let me zoom back out and ask, back to the history of ImageNet. Neural networks have been around for many decades, as you mentioned.
 
-*Key ideas that led to success of deep learning*
+## Key ideas that led to success of deep learning
 
 [16:22](https://youtu.be/13CZPWmke6A?t=982)
 **Lex Fridman:** What do you think were the key ideas that led to their success? That ImageNet moment and beyond, the success in the past 10 years.
@@ -165,7 +165,7 @@ date: 2024-01-07 10:05:56
 [19:30](https://youtu.be/13CZPWmke6A?t=1170)
 **Ilya Sutskever:** And it was pretty rational to say, "Yeah, this stuff doesn't have any traction." And that's why you need to have these very hard tasks which are, which produce undeniable evidence. And that's how we make progress, and that's why the field is making progress today because we have these hard benchmarks which represent true progress.
 
-*What's harder to solve: language or vision?*
+## What's harder to solve: language or vision?
 
 [20:00](https://youtu.be/13CZPWmke6A?t=1200)
 **Lex Fridman:** So, incredibly, you've contributed to some of the biggest recent ideas in AI, in computer vision, language, natural language processing, reinforcement learning, sort of everything in between.
@@ -261,7 +261,7 @@ date: 2024-01-07 10:05:56
 [29:39](https://youtu.be/13CZPWmke6A?t=1779)
 **Ilya Sutskever:** I'm sure we'll get that as well. 
 
-*We're massively underestimating deep learning*
+## We're massively underestimating deep learning
 
 **Lex Fridman:** So forgive the romanticized question, but we're massively underestimating deep learning. Looking back to you, what is the most beautiful or surprising idea in deep learning or AI in general you've come across?
 
@@ -325,7 +325,7 @@ date: 2024-01-07 10:05:56
 [35:35](https://youtu.be/13CZPWmke6A?t=2135)
 **Ilya Sutskever:** I think it will be a very... I think there will be a large number of breakthroughs in general that will not need a huge amount of compute. So maybe I should clarify that I think that some breakthroughs will require a lot of compute and I think building systems which actually do things will require a huge amount of compute. That one is pretty obvious; if you want to do X, right, and X requires a huge neural net, you got to get a huge neural net. But I think there will be lots of... I think there is lots of room for very important work being done by small groups and individuals.
 
-*Deep double descent*
+## Deep double descent
 
 [36:05](https://youtu.be/13CZPWmke6A?t=2165)
 **Lex Fridman:** You may be, sort of on the topic of the science of deep learning, talk about one of the recent papers that you released, sure, that deep double descent, where bigger models and more data hurt. I think it's really interesting paper. Can you, can you describe the main idea and...
@@ -380,7 +380,7 @@ date: 2024-01-07 10:05:56
 
 **Ilya Sutskever:** The randomness, exactly, the spurious correlation which you don't want.
 
-*Backpropagation*
+## Backpropagation
 
 [41:25](https://youtu.be/13CZPWmke6A?t=2485)
 **Lex Fridman:** Jeff Hinton suggested we need to throw backpropagation away. We already kind of talked about this a little bit, but what do you think could be an alternative method of training neural networks?
@@ -399,7 +399,7 @@ date: 2024-01-07 10:05:56
 [42:17](https://youtu.be/13CZPWmke6A?t=2537)
 **Ilya Sutskever:** I mean, I personally am a big fan of backpropagation. I think it's a great algorithm because it solves an extremely fundamental problem, which is finding a neural circuit subject to some constraints. And I don't see that problem going away. So, that's why I really think it's pretty unlikely that we'll have anything which is going to be dramatically different. It could happen, but I wouldn't bet on it right now.
 
-*Can neural networks be made to reason?*
+## Can neural networks be made to reason?
 
 [42:49](https://youtu.be/13CZPWmke6A?t=2569)
 **Lex Fridman:** So, let me ask a sort of big-picture question. Do you think, can neural networks be made to reason?
@@ -495,7 +495,7 @@ date: 2024-01-07 10:05:56
 [50:22](https://youtu.be/13CZPWmke6A?t=3022)
 **Lex Fridman:** Yeah, I'm there with you. I've stopped betting against neural networks at this point, because they continue to surprise us.
 
-*Long-term memory*
+## Long-term memory
 
 [50:38](https://youtu.be/13CZPWmke6A?t=3038)
 **Lex Fridman:** What about long-term memory? Can neural networks have long-term memory or something like knowledge bases, so being able to aggregate important information over long periods of time that would then serve as useful sort of representations of state that you can make decisions by? So, have a long-term context based on what you make in the decision.
@@ -551,7 +551,7 @@ date: 2024-01-07 10:05:56
 [56:31](https://youtu.be/13CZPWmke6A?t=3391)
 **Ilya Sutskever:** Yeah, that whole mortality thing is kind of a sticky problem that we haven't quite figured out. Maybe we'll solve that one.
 
-*Language models*
+## Language models
 
 [56:37](https://youtu.be/13CZPWmke6A?t=3397)
 **Lex Fridman:** I think one of the fascinating things in your entire body of work, but also the work at OpenAI recently, one of the conversation changers has been in the world of language models. Can you briefly kind of try to describe the recent history of using neural networks in the domain of language and text?
@@ -582,7 +582,7 @@ date: 2024-01-07 10:05:56
 [1:00:25](https://youtu.be/13CZPWmke6A?t=3625)
 **Ilya Sutskever:** That's right. And so, I don't want to imply that our models have complete semantic understanding because that's not true, but they definitely are showing signs of semantic understanding, partial semantic understanding. But the smaller models do not show those signs.
 
-*GPT-2*
+## GPT-2
 
 [1:00:36](https://youtu.be/13CZPWmke6A?t=3636)
 **Lex Fridman:** Can you take a step back and say what is GPT-2, which is one of the big language models that was the conversation changer in the past couple of years?
@@ -681,7 +681,7 @@ date: 2024-01-07 10:05:56
 [1:07:09](https://youtu.be/13CZPWmke6A?t=4029)
 **Lex Fridman:** Yeah, listen, I love active learning, so...
 
-*Active learning*
+## Active learning
 
 [1:07:17](https://youtu.be/13CZPWmke6A?t=4037)
 **Lex Fridman:** Let me ask, does the selection of data, can you just elaborate that a little bit more? Do you think the selection of data is, um... Like, I have this kind of sense that the optimization of how you select data, so the active learning process, is going to be a place for a lot of breakthroughs, even in the near future, because there hasn't been many breakthroughs there that are public. I feel like there might be private breakthroughs that companies keep to themselves because the fundamental problem has to be solved. If you want to solve self-driving, if you want to solve a particular task. But, do you, what do you think about the space in general?
@@ -697,7 +697,7 @@ date: 2024-01-07 10:05:56
 [1:08:51](https://youtu.be/13CZPWmke6A?t=4131)
 **Lex Fridman:** There's another interesting thing that OpenAI has brought up with GPT-2, which is ...
 
-*Staged release of AI systems*
+## Staged release of AI systems
 
 [1:08:57](https://youtu.be/13CZPWmke6A?t=4137)
 **Lex Fridman:** When you create a powerful artificial intelligence system, and it was unclear what kind of detrimental... Once you release GPT-2, what kind of detrimental effect it will have. Because if you have a model that can generate pretty realistic text, you can start to imagine that it would be used by bots and some way that we can't even imagine. So like, there's this nervousness about what it's possible to do. So you did a really brave and profound thing, which you started a conversation about this. Like, how do we release powerful artificial intelligence models to the public, if we do it at all? How do we privately discuss with other, even competitors, about how we manage the use of these systems and so on? So from that whole experience, you released a report on it, but in general, are there any insights that you've gathered from just thinking about this, about how you release models like this?
@@ -737,7 +737,7 @@ date: 2024-01-07 10:05:56
 
 **Ilya Sutskever:** I don't love this i've been like a pure academic for 10 years I really like sharing ideas and it's fun it's exciting.
 
-*How to build AGI?*
+## How to build AGI?
 
 [1:13:41](https://youtu.be/13CZPWmke6A?t=4421)
 **Lex Fridman:** What do you think it takes to, let's talk about AGI a little bit, what do you think it takes to build a system of human-level intelligence? We talked about reasoning, we talked about long-term memory, but in general, what does it take, you think?
@@ -865,7 +865,7 @@ date: 2024-01-07 10:05:56
 [1:24:34](https://youtu.be/13CZPWmke6A?t=5074)
 **Ilya Sutskever:** Yeah, I mean, there is truth to that, though. There are people also, I'm sure, that plenty of people are also extremely impressed by the system that exists today. But I think this connects to the earlier point we discussed, that it's just confusing to judge progress in AI. You know, you have a new robot demonstrating something; how impressed should you be? And I think people will start to be impressed once AI starts to really move the needle on the GDP.
 
-*Question to AGI*
+## Question to AGI
 
 [1:25:00](https://youtu.be/13CZPWmke6A?t=5100)
 **Lex Fridman:** So, you're one of the people that might be able to create an AGI system here. Not you, but you and OpenAI. If you do create an AGI system, and you get to spend the evening with it, him, her, what would you talk about? Do you think the very first time?
@@ -935,7 +935,7 @@ date: 2024-01-07 10:05:56
 [1:31:32](https://youtu.be/13CZPWmke6A?t=5492)
 **Ilya Sutskever:** There are definite ideas of how to train a value function, basically an objective, you know, and as objective as possible, perception system that will be trained separately to recognize, to internalize human judgments on different situations. And then that component would then be integrated as the base value function for some more capable RL system. You could imagine a process like this. I'm not saying this is the process. I'm saying this is an example of the kind of thing you could do.
 
-*Meaning of life*
+## Meaning of life
 
 [1:32:10](https://youtu.be/13CZPWmke6A?t=5530)
 **Lex Fridman:** So, on that topic of the objective functions of human existence, what do you think is the objective function that is implicit in human existence? What's the meaning of life?
