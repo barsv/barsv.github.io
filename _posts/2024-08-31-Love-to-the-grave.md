@@ -1,5 +1,7 @@
 ---
-layout: post title: Love to the grave date: 2024-08-31 00:00:01
+layout: post
+title: Love to the grave
+date: 2024-08-31 00:00:01
 ---
 
 коллега, который меня младше на 13 лет, как-то раз спросил - если бы я мог дать
