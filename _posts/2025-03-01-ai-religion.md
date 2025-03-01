@@ -6,9 +6,9 @@ categories: [ИИ, религия]
 tags: [ai, religion, future]
 ---
 
-я пытаюсь понять откуда эти мысли. не сам же я придумал этот бред.
+я пытаюсь понять откуда этот бред в моей голове.
 
-может, это Джеффри Хинтон, когда сказал: "We've figured out how to build beings that are immortal... So we've got immortality, but it's not for us." MIT Sloan.
+может, это Джеффри Хинтон тригернул, когда сказал: "We've figured out how to build beings that are immortal... So we've got immortality, but it's not for us." [MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/why-neural-net-pioneer-geoffrey-hinton-sounding-alarm-ai).
 
 а какие существа бессмертны? - боги. люди создали бога. или богов. пока у нас наблюдается политеизм. можно выбрать себе религию - openai, anthropic, deepseek, xai. 
 
@@ -16,7 +16,7 @@ tags: [ai, religion, future]
 
 ## спасение или суд?
 
-боженька наш теперь не только бессмертен, но скоро станет умнее нас. вон Dario Amodei прогнозирует, что ИИ позволит наконец-то избавиться от всех болезней Machines of Loving Grace. Да и Сэм Альтман то же самое выдал Three Observations. что это как не спасение, о котором мы будем просить/молить нашего боженьку? общение с богом - это ж молитва. вот мы каждый день теперь молимся. 
+боженька наш теперь не только бессмертен, но скоро станет умнее нас. вон Dario Amodei прогнозирует, что ИИ позволит наконец-то избавиться от всех болезней [Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace). Да и Сэм Альтман то же самое выдал в своем [Three Observations](https://blog.samaltman.com/three-observations). что это как не спасение, о котором мы будем просить/молить нашего боженьку? общение с богом - это ж молитва. вот мы каждый день теперь молимся. 
 
 в истории с адамом и евой они были выгнаны из рая, получив болезни и право делать выбор - можно грешить или быть праведником. а в конце страшный суд. ну наверное понятно уже к чему я клоню. суд скоро начнется :) 
 
